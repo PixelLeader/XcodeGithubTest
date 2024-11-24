@@ -14,6 +14,7 @@
 		DFD82A602CF366A10000E157 /* XcodeGithubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82A5F2CF366A10000E157 /* XcodeGithubTestTests.swift */; };
 		DFD82A6A2CF366A10000E157 /* XcodeGithubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82A692CF366A10000E157 /* XcodeGithubTestUITests.swift */; };
 		DFD82A6C2CF366A10000E157 /* XcodeGithubTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82A6B2CF366A10000E157 /* XcodeGithubTestUITestsLaunchTests.swift */; };
+		DFD82A792CF36FF50000E157 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82A782CF36FF50000E157 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DFD82A652CF366A10000E157 /* XcodeGithubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeGithubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD82A692CF366A10000E157 /* XcodeGithubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeGithubTestUITests.swift; sourceTree = "<group>"; };
 		DFD82A6B2CF366A10000E157 /* XcodeGithubTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeGithubTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFD82A782CF36FF50000E157 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				DFD82A4E2CF3669E0000E157 /* XcodeGithubTestApp.swift */,
 				DFD82A502CF3669E0000E157 /* ContentView.swift */,
+				DFD82A782CF36FF50000E157 /* SecondView.swift */,
 				DFD82A522CF366A00000E157 /* Assets.xcassets */,
 				DFD82A542CF366A00000E157 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD82A792CF36FF50000E157 /* SecondView.swift in Sources */,
 				DFD82A512CF3669E0000E157 /* ContentView.swift in Sources */,
 				DFD82A4F2CF3669E0000E157 /* XcodeGithubTestApp.swift in Sources */,
 			);
